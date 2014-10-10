@@ -1,0 +1,67 @@
+/*
+Theme Name: Hackspacious
+Theme URI: http://themegrill.com/themes/spacious
+Author: James Wade
+Author URI: http://wade.be/
+Template: spacious
+Description: Theme for Hackspaces, a child of Spacious
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, white, dark, two-columns, right-sidebar, left-sidebar, fluid-layout, responsive-layout, custom-header, custom-background, custom-menu, custom-colors, sticky-post, threaded-comments, translation-ready, featured-images, theme-options
+Text Domain: hackspacious
+*/
+
+@import url("../spacious/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+body,
+button,
+input,
+select,
+textarea {
+	font: 16px Roboto, Helvetica, Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+p { 
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+.main-navigation li {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+#site-navigation a {color: #fff}
+#header-text-nav-container {
+	border-bottom: 1px solid #EAEAEA;
+	background: #EA212E;
+}
+.header-post-title-container {
+	border-bottom: 1px solid #EAEAEA;
+	background: #f8f8f8;
+	padding: 20px 0;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.05) inset;
+}
+.header-post-title-container .post-title-wrapper {
+	float: left;
+	max-width: 100%;
+	padding-right: 30px;
+}
+.header-post-title-class {
+	font-size: 22px;
+	padding-bottom: 0;
+}
+#featured-slider div div.slides {
+	height: 480px;
+	overflow: hidden;
+}
+.tg-one-fourth {
+    padding-bottom: 0;
+}
+#colophon .widget {
+    padding-bottom: 10px;
+}
+#masthead .search-wrap span {
+    right: 0;
+}

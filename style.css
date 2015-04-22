@@ -21,7 +21,7 @@ button,
 input,
 select,
 textarea {
-	font: 16px Roboto, Helvetica, Arial, sans-serif;
+    font: 16px Roboto, Helvetica, Arial, sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: Roboto, Helvetica, Arial, sans-serif;
@@ -34,27 +34,27 @@ p {
 }
 #site-navigation a {color: #fff}
 #header-text-nav-container {
-	border-bottom: 1px solid #EAEAEA;
-	background: #EA212E;
+    border-bottom: 1px solid #EAEAEA;
+    background: #EA212E;
 }
 .header-post-title-container {
-	border-bottom: 1px solid #EAEAEA;
-	background: #f8f8f8;
-	padding: 20px 0;
-	box-shadow: 0 0 30px rgba(0, 0, 0, 0.05) inset;
+    border-bottom: 1px solid #EAEAEA;
+    background: #f8f8f8;
+    padding: 20px 0;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.05) inset;
 }
 .header-post-title-container .post-title-wrapper {
-	float: left;
-	max-width: 100%;
-	padding-right: 30px;
+    float: left;
+    max-width: 100%;
+    padding-right: 30px;
 }
 .header-post-title-class {
-	font-size: 22px;
-	padding-bottom: 0;
+    font-size: 22px;
+    padding-bottom: 0;
 }
 #featured-slider div div.slides {
-	height: 480px;
-	overflow: hidden;
+    height: 480px;
+    overflow: hidden;
 }
 .tg-one-fourth {
     padding-bottom: 0;

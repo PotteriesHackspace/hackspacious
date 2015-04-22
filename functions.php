@@ -5,3 +5,5 @@ function load_fonts() {
     wp_enqueue_style('googleFonts');
 }
 add_action('wp_print_styles', 'load_fonts');
+
+include_once '../spacious/functions.php';

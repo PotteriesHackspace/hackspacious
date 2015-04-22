@@ -32,7 +32,12 @@ p {
 .main-navigation li {
     font-family: Roboto, Helvetica, Arial, sans-serif;
 }
-#site-navigation a {color: #fff}
+.main-navigation ul li ul li a {
+    color: #EA212E !important;
+}
+#site-navigation a {
+    color: #fff;
+}
 #header-text-nav-container {
     border-bottom: 1px solid #EAEAEA;
     background: #EA212E;

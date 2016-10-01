@@ -1,7 +1,7 @@
 <?php
 
 function load_fonts() {
-    wp_register_style('googleFonts', 'http://fonts.googleapis.com/css?family=Roboto');
+    wp_register_style('googleFonts', '//fonts.googleapis.com/css?family=Roboto');
     wp_enqueue_style('googleFonts');
 }
 
@@ -11,7 +11,7 @@ function spacious_footer_copyright () {
     return;
 }
 
-include_once '../spacious/functions.php';
+include_once get_template_directory() . '/../spacious/functions.php';
 
 function hackspacious_site_link() {
    return '<a href="' . esc_url( home_url( '/' ) ) . '" title="' . esc_attr( get_bloginfo( 'name', 'display' ) ) . '" ><span>' . get_bloginfo( 'name', 'display' ) . '</span></a>';
